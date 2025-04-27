@@ -91,14 +91,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             name="modifiedName"
                             autocomplete="off"
                             autofocus
-                            value="<?= htmlspecialchars($contact['modifiedname']) ?>" 
+                            value="<?= htmlspecialchars($contact['modifiedname']) ?>"
                             placeholder="Nom complet">
 
                         <input type="email"
                             name="modifiedEmail"
                             autocomplete="off"
                             autofocus
-                            value="<?= htmlspecialchars($contact['modifiedemail']) ?>" 
+                            value="<?= htmlspecialchars($contact['modifiedemail']) ?>"
                             placeholder="email">
 
                         <a href="/modify.php?id=<?= $contacts['id'] ?>">
